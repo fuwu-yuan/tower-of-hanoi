@@ -9,7 +9,7 @@ export class Piece extends Entities.Image {
 
   constructor(size: number, column: Column) {
     super(
-      '/assets/images/piece.png',
+      './assets/images/piece.png',
       BackgroundMappingSettings.COLUMNS_X[column.index] - BackgroundMappingSettings.PIECE_SIZE.WIDTH * size / 2,
       BackgroundMappingSettings.COLUMNS_BASE_Y - BackgroundMappingSettings.PIECE_SIZE.HEIGHT,
       BackgroundMappingSettings.PIECE_SIZE.WIDTH * (1+size/3),

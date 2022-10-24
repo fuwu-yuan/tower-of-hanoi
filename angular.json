@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Kobbo": {
+    "hanoi-tower": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -21,7 +21,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "showCircularDependencies": false,
-            "outputPath": "dist/Kobbo",
+            "outputPath": "dist/hanoi-tower",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -84,18 +84,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Kobbo:build"
+            "browserTarget": "hanoi-tower:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Kobbo:build:production"
+              "browserTarget": "hanoi-tower:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Kobbo:build"
+            "browserTarget": "hanoi-tower:build"
           }
         },
         "test": {
@@ -132,11 +132,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Kobbo:serve"
+            "devServerTarget": "hanoi-tower:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Kobbo:serve:production"
+              "devServerTarget": "hanoi-tower:serve:production"
             }
           }
         },
@@ -147,7 +147,7 @@
       }
     }
   },
-  "defaultProject": "Kobbo",
+  "defaultProject": "hanoi-tower",
   "cli": {
     "analytics": "31a8ccb2-7259-4460-81b4-0d994ffcaf36"
   }

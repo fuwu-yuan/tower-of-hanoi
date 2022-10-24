@@ -1,5 +1,5 @@
 {
-  "name": "mygame",
+  "name": "tower-of-hanoi",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy --base-href=/mygame/",
+    "deploy": "ng deploy --base-href=/tower-of-hanoi/",
     "push": "git add -A && git commit -m 'some updates' && git push origin master"
   },
   "private": true,
